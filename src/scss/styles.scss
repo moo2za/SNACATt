@@ -1,0 +1,209 @@
+@import "reset";
+@import "_mixins";
+@import "_variables";
+@import url('https://fonts.googleapis.com/css2?family=Baloo+Tamma+2&display=swap');
+
+* {
+  box-sizing: border-box;
+  max-width: 100%;
+}
+
+a{
+  color: #5A5A5A;
+  margin-right: 10px;
+}
+
+.left{
+  background-color: #F0F0F0;
+  padding: 50px 10px 0px 70px;
+  max-height: 100vh;
+  color: #E7473C;
+
+  @include responsive("size1") {
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    padding-left: 35px;
+    height: 90vh;
+    header{
+      font-size: 4rem;
+    }
+    .subtitle{
+    width: 100%;
+    font-size: 2rem;
+    }
+    .description{
+      width: 100%;
+    }
+  }
+  @include responsive("size2") {
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 95vh;
+    header{
+      font-size: 5rem;
+    }
+    .subtitle{
+      width: 100%;
+      font-size: 2rem;
+    }
+    .description{
+      width: 100%;
+    }
+  }
+  @include responsive("size3") {
+    position: fixed;
+    left: 0;
+    top: 0;
+    width: 420px;
+    header{
+      font-size: 4rem;
+    }
+    .subtitle{
+      width: 280px;
+      font-size: 2rem;
+      margin-top: 30px;
+    }
+    .description{
+      width: 280px;
+    }
+  }
+  @include responsive("size4") {
+    position: fixed;
+    left: 0;
+    top: 0;
+    width: 600px;
+    header{
+      font-size: 5rem;
+    }
+    .subtitle{
+      width: 300px;
+      font-size: 2rem;
+    }
+    .description{
+      width: 380px;
+    }
+  }
+}
+
+header {
+  width: 400px;
+  font-family: 'Baloo Tamma 2', cursive;
+}
+
+.subtitle{
+  margin: 80px 0px 30px 0px;
+  line-height: 38px;
+}
+
+.description{
+  font-size: 1rem;
+  margin-bottom: 35px;
+  line-height: 20px;
+}
+
+.contact{
+  margin-bottom: 50px;
+  line-height: 25px;
+}
+
+.movie-title{
+  grid-area: movie-title;
+}
+
+.director{
+  grid-area: director;
+}
+
+.main{
+  max-width: 100%;
+  min-height: 100vh;
+  color: white;
+  font-weight: 500;
+  @include responsive("size1"){
+    padding-top: 90vh;
+    .movie{
+      padding: 35px;
+    }
+    .movie-title{
+      font-size: 1.4rem;
+    }
+  }
+  @include responsive("size2"){
+    padding-top: 95vh;
+    .movie{
+      padding: 75px;
+    }
+    .movie-title{
+      font-size: 2rem;
+    }
+  }
+  @include responsive("size3"){
+    padding-left: 420px;
+    .movie{
+      padding: 35px;
+    }
+    .movie-title{
+      font-size: 2rem;
+    }
+  }
+  @include responsive("size4"){
+    padding-left: 600px;
+    .movie{
+      padding: 75px;
+    }
+   
+    .movie-title{
+      font-size: 2rem;
+    }
+  }
+
+  .movie{
+    width:100%;
+    background-image: linear-gradient(to bottom, #D54137, #E7473C);
+    max-height: 710px;
+    .information{
+      margin-bottom: 30px;
+      display: flex;
+      justify-content: space-between;
+      align-items: flex-end;
+    }
+    @keyframes appearance{
+      from {
+        opacity: 0;
+      }
+      to {
+        opacity: 1;
+      }
+    }
+    .movie-img{
+      width:100%;
+      box-shadow: rgba(0, 0, 0, 0.25) 0 30px 60px -12px,
+    rgba(0, 0, 0, 0.3) 0 18px 36px -18px, rgba(0, 0, 0, 0.025) 0 -12px 36px -8px;
+      opacity: 0;
+      animation: appearance 0.5s ease-in forwards;
+      animation-delay: 0.5s;
+      &:hover{
+       cursor: pointer;
+      }
+    }
+    
+    .recommended{
+      margin-top: 20px;
+      display: flex;
+      justify-content: flex-end;
+      & i{
+        margin-left:10px;
+        font-size: 18px;
+        opacity: 0.7;
+      }
+      & i:hover{
+        opacity: 1;
+        cursor:pointer;
+      }
+    }
+  }
+}

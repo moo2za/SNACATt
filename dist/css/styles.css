@@ -1,0 +1,339 @@
+@import url(https://fonts.googleapis.com/css2?family=Baloo+Tamma+2&display=swap);
+@-webkit-keyframes appearance {
+  0% {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+@keyframes appearance {
+  0% {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+a,
+abbr,
+acronym,
+address,
+applet,
+article,
+aside,
+audio,
+b,
+big,
+blockquote,
+body,
+canvas,
+caption,
+center,
+cite,
+code,
+dd,
+del,
+details,
+dfn,
+div,
+dl,
+dt,
+em,
+embed,
+fieldset,
+figcaption,
+figure,
+footer,
+form,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+header,
+hgroup,
+html,
+i,
+iframe,
+img,
+ins,
+kbd,
+label,
+legend,
+li,
+mark,
+menu,
+nav,
+object,
+ol,
+output,
+p,
+pre,
+q,
+ruby,
+s,
+samp,
+section,
+small,
+span,
+strike,
+strong,
+sub,
+summary,
+sup,
+table,
+tbody,
+td,
+tfoot,
+th,
+thead,
+time,
+tr,
+tt,
+u,
+ul,
+var,
+video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font: inherit;
+  vertical-align: baseline;
+}
+a {
+  color: #5a5a5a;
+  margin: 0 10px 0 0;
+}
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+  display: block;
+}
+body {
+  line-height: 1;
+}
+ol,
+ul {
+  list-style: none;
+}
+blockquote,
+q {
+  quotes: none;
+}
+blockquote:after,
+blockquote:before,
+q:after,
+q:before {
+  content: none;
+}
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+* {
+  box-sizing: border-box;
+  max-width: 100%;
+}
+.left {
+  background-color: #f0f0f0;
+  padding: 50px 10px 0 70px;
+  max-height: 100vh;
+  color: #e7473c;
+}
+@media screen and (min-width: 480px) and (max-width: 580px) {
+  .left {
+    position: absolute;
+    left: 0;
+    top: 0;
+    padding-left: 35px;
+    height: 90vh;
+  }
+  .left header {
+    font-size: 4rem;
+  }
+  .left .subtitle {
+    width: 100%;
+    font-size: 2rem;
+  }
+  .left,
+  .left .description {
+    width: 100%;
+  }
+}
+@media screen and (min-width: 580px) and (max-width: 822px) {
+  .left {
+    position: absolute;
+    left: 0;
+    top: 0;
+    height: 95vh;
+  }
+  .left header {
+    font-size: 5rem;
+  }
+  .left .subtitle {
+    width: 100%;
+    font-size: 2rem;
+  }
+  .left,
+  .left .description {
+    width: 100%;
+  }
+}
+@media screen and (min-width: 822px) and (max-width: 1180px) {
+  .left {
+    position: fixed;
+    left: 0;
+    top: 0;
+    width: 420px;
+  }
+  .left header {
+    font-size: 4rem;
+  }
+  .left .subtitle {
+    width: 280px;
+    font-size: 2rem;
+    margin-top: 30px;
+  }
+  .left .description {
+    width: 280px;
+  }
+}
+@media screen and (min-width: 1180px) and (max-width: 2000px) {
+  .left {
+    position: fixed;
+    left: 0;
+    top: 0;
+    width: 600px;
+  }
+  .left header {
+    font-size: 5rem;
+  }
+  .left .subtitle {
+    width: 300px;
+    font-size: 2rem;
+  }
+  .left .description {
+    width: 380px;
+  }
+}
+header {
+  width: 400px;
+  font-family: "Baloo Tamma 2", cursive;
+}
+.subtitle {
+  margin: 80px 0 30px;
+  line-height: 38px;
+}
+.description {
+  font-size: 1rem;
+  margin-bottom: 35px;
+  line-height: 20px;
+}
+.contact {
+  margin-bottom: 50px;
+  line-height: 25px;
+}
+.movie-title {
+  grid-area: movie-title;
+}
+.director {
+  grid-area: director;
+}
+.main {
+  max-width: 100%;
+  min-height: 100vh;
+  color: #fff;
+  font-weight: 500;
+}
+@media screen and (min-width: 480px) and (max-width: 580px) {
+  .main {
+    padding-top: 90vh;
+  }
+  .main .movie {
+    padding: 35px;
+  }
+  .main .movie-title {
+    font-size: 1.4rem;
+  }
+}
+@media screen and (min-width: 580px) and (max-width: 822px) {
+  .main {
+    padding-top: 95vh;
+  }
+  .main .movie {
+    padding: 75px;
+  }
+  .main .movie-title {
+    font-size: 2rem;
+  }
+}
+@media screen and (min-width: 822px) and (max-width: 1180px) {
+  .main {
+    padding-left: 420px;
+  }
+  .main .movie {
+    padding: 35px;
+  }
+  .main .movie-title {
+    font-size: 2rem;
+  }
+}
+@media screen and (min-width: 1180px) and (max-width: 2000px) {
+  .main {
+    padding-left: 600px;
+  }
+  .main .movie {
+    padding: 75px;
+  }
+  .main .movie-title {
+    font-size: 2rem;
+  }
+}
+.main .movie {
+  width: 100%;
+  background-image: linear-gradient(to bottom, #d54137, #e7473c);
+  max-height: 710px;
+}
+.main .movie .information {
+  margin-bottom: 30px;
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
+}
+.main .movie .movie-img {
+  width: 100%;
+  box-shadow: rgba(0, 0, 0, 0.25) 0 30px 60px -12px,
+    rgba(0, 0, 0, 0.3) 0 18px 36px -18px, rgba(0, 0, 0, 0.025) 0 -12px 36px -8px;
+  opacity: 0;
+  -webkit-animation: appearance 0.5s ease-in forwards;
+  animation: appearance 0.5s ease-in forwards;
+  -webkit-animation-delay: 0.5s;
+  animation-delay: 0.5s;
+}
+.main .movie .movie-img:hover {
+  cursor: pointer;
+}
+.main .movie .recommended {
+  margin-top: 20px;
+  display: flex;
+  justify-content: flex-end;
+}
+.main .movie .recommended i {
+  margin-left: 10px;
+  font-size: 18px;
+  opacity: 0.7;
+}
+.main .movie .recommended i:hover {
+  opacity: 1;
+  cursor: pointer;
+}
