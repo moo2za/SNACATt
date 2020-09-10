@@ -1,4 +1,5 @@
 .nav {
+  box-sizing: border-box;
   font-style: "Noto Sans KR";
   min-width: 768px;
   width: 100%;
@@ -6,12 +7,10 @@
   display: flex;
   align-items: center;
   z-index: 11;
-  height: 95px;
-  padding: 0 200px 0 200px;
+  height: 90px;
+  padding: 0 120px 0 120px;
   background-color: #ffffff;
-  -webkit-box-shadow: 3px 3px 20px -4px rgba(0, 0, 0, 0.75);
-  -moz-box-shadow: 3px 3px 20px -4px rgba(0, 0, 0, 0.75);
-  box-shadow: 3px 3px 20px -4px rgba(0, 0, 0, 0.75);
+
   .nav__container {
     width: 100%;
     display: flex;
@@ -22,7 +21,7 @@
       align-items: center;
       & img {
         height: 17.5px;
-        width: 100px;
+        width: 90px;
       }
     }
     .nav__list {
@@ -38,7 +37,7 @@
           display: flex;
           justify-content: center;
           height: 20px;
-          font-size: 12px;
+          font-size: 13px;
           font-weight: 500;
           font-stretch: normal;
           font-style: normal;
