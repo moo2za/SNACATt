@@ -88,12 +88,15 @@ html {
     padding: 20px 20px 0px 20px;
     .feature__content {
       height: 304px;
-      width: 264px;
+      width: 210px;
       margin-right: 37px;
       display: flex;
       flex-direction: column;
       align-items: center;
       text-align: center;
+      .feature__img {
+        height: 125px;
+      }
       .content__title {
         font-size: 19px;
         font-weight: 900;
@@ -101,7 +104,7 @@ html {
         margin: 17px 0px;
       }
       .content__box {
-        font-size: 17px;
+        font-size: 16.5px;
         font-weight: 500;
         color: #2e2e2e;
         line-height: 1.76;
@@ -278,7 +281,7 @@ html {
       margin: 0px 15px;
     }
     .use__content {
-      width: 227px;
+      width: 220px;
       height: 324px;
       display: flex;
       flex-direction: column;
@@ -323,7 +326,7 @@ html {
   background-repeat: no-repeat;
   background-size: cover;*/
   background-color: #3d1c4c;
-  padding: 110px 442px 60px 442px;
+  padding: 100px 442px 60px 442px;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -338,19 +341,19 @@ html {
     margin: 43px 0px;
     height: 370px;
     .group_54 {
-      width: 376.4px;
-      height: 280px;
+      width: 350px;
+      height: 265px;
     }
     .price {
-      width: 566.1px;
-      height: 370.1px;
-      margin-left: 167px;
+      width: 550px;
+      height: 360px;
+      margin-left: 100px;
     }
   }
 
   #subscribeButton {
     width: 318px;
-    height: 82px;
+    height: 75px;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -374,7 +377,7 @@ html {
   }
   .qna__container {
     margin-top: 12px;
-    width: 1200px;
+    width: 1040px;
     .first__floor {
       width: 100%;
       display: flex;
@@ -389,15 +392,15 @@ html {
     }
     .qna__box {
       position: relative;
-      width: 531px;
+      width: 496px;
       height: 429px;
-      margin: 15px;
+      margin: 12.5px;
       background-color: #f6f6f6;
       .question {
         position: absolute;
         top: 43px;
-        right: 62px;
-        left: 62px;
+        right: 40px;
+        left: 40px;
         display: flex;
         .q {
           display: flex;
@@ -426,8 +429,8 @@ html {
         display: flex;
         position: absolute;
         top: 148px;
-        right: 62px;
-        left: 62px;
+        right: 40px;
+        left: 40px;
         .a {
           display: flex;
           justify-content: center;
