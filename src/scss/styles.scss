@@ -1,8 +1,8 @@
-@import "/src/scss/config/reset.scss";
-@import "/src/scss/config/variables";
-@import "/src/scss/main.scss";
+@import "config/reset.scss";
+@import "config/variables";
+@import "main.scss";
 
 @import "partials/header.scss";
-@import "/src/scss/partials/footer.scss";
+@import "partials/footer.scss";
 
 @import url("https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@500;700;900&display=swap");
