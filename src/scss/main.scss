@@ -10,17 +10,19 @@ a {
 body {
   font-family: "Noto Sans KR";
   height: 100%;
+  min-width: 768px;
 }
 
 html {
   scroll-behavior: smooth;
   height: 100%;
+  min-width: 768px;
 }
 
-.main {
+.summary {
   position: relative;
-  background-color: white;
-  top: 24px;
+  background-color: #ffffff;
+  top: 9vh;
   .index__first {
     height: 770px;
     background-image: url(../../dist/images/background3.png);

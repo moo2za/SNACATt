@@ -1,53 +1,62 @@
 .nav {
+  font-style: "Noto Sans KR";
+  min-width: 768px;
   width: 100%;
   position: fixed;
-  z-index: 11;
   display: flex;
-  justify-content: space-between;
-  padding: 37px 400.5px 20px 403px;
+  align-items: center;
+  z-index: 11;
   height: 95px;
+  padding: 0 200px 0 200px;
   background-color: #ffffff;
   -webkit-box-shadow: 3px 3px 20px -4px rgba(0, 0, 0, 0.75);
   -moz-box-shadow: 3px 3px 20px -4px rgba(0, 0, 0, 0.75);
   box-shadow: 3px 3px 20px -4px rgba(0, 0, 0, 0.75);
-  img {
-    height: 75px;
-    width: 145px;
-  }
-  .nav__main {
-    justify-content: flex-start;
+  .nav__container {
+    width: 100%;
     display: flex;
-    align-items: center;
-  }
-  .nav__list {
-    justify-content: flex-end;
-    display: flex;
-    .nav__list-item {
-      width: 145px;
-      border-right: solid 1px #969595;
+    justify-content: space-around;
+    .nav__main {
+      justify-content: flex-start;
       display: flex;
       align-items: center;
-      justify-content: center;
-      & button {
+      & img {
+        height: 17.5px;
+        width: 100px;
+      }
+    }
+    .nav__list {
+      display: flex;
+      justify-content: flex-end;
+      .nav__list-item {
+        width: 145px;
+        border-right: solid 1px #969595;
         display: flex;
+        align-items: center;
         justify-content: center;
-        height: 22px;
-        font-size: 15px;
-        font-weight: 500;
-        font-stretch: normal;
-        font-style: normal;
-        line-height: 1.47;
-        letter-spacing: normal;
-        text-align: left;
-        color: #2e2e2e;
-      }
-      & :hover {
-        cursor: pointer;
-        opacity: 100%;
-        font-weight: 800;
-      }
-      &:last-child {
-        border: none;
+        & button {
+          display: flex;
+          justify-content: center;
+          height: 20px;
+          font-size: 12px;
+          font-weight: 500;
+          font-stretch: normal;
+          font-style: normal;
+          line-height: 1.47;
+          letter-spacing: normal;
+          text-align: left;
+          color: #2e2e2e;
+          background-color: white;
+          border: 0px;
+        }
+        & :hover {
+          cursor: pointer;
+          opacity: 100%;
+          font-weight: 900;
+        }
+        &:last-child {
+          border: none;
+        }
       }
     }
   }
