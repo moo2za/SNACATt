@@ -118,18 +118,18 @@ html {
 
 .service {
   height: 866px;
-  padding: 100px 327px 0px 327px;
+  padding: 100px 200px 0px 200px;
   display: flex;
   flex-direction: column;
   align-items: center;
   .title {
-    width: 800px;
+    width: 640px;
     margin: 30px 0px;
     color: #2e2e2e;
   }
   .service__container {
     background-color: #d5f1ff;
-    width: 1000px;
+    width: 900px;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -168,7 +168,7 @@ html {
     font-weight: 500;
     color: #848484;
     line-height: 4;
-    width: 1000px;
+    width: 900px;
     text-align: end;
   }
   .content__box {
@@ -206,7 +206,7 @@ html {
   }
   .review__container {
     margin-top: 57px;
-    width: 1000px;
+    width: 900px;
     white-space: nowrap;
     overflow: hidden;
     display: flex;
@@ -281,7 +281,7 @@ html {
       margin: 0px 15px;
     }
     .use__content {
-      width: 220px;
+      width: 215px;
       height: 324px;
       display: flex;
       flex-direction: column;
@@ -372,12 +372,12 @@ html {
   flex-direction: column;
   align-items: center;
   .title {
-    width: 1000px;
+    width: 900px;
     text-align: start;
   }
   .qna__container {
     margin-top: 12px;
-    width: 1040px;
+    width: 1000px;
     .first__floor {
       width: 100%;
       display: flex;
@@ -392,15 +392,15 @@ html {
     }
     .qna__box {
       position: relative;
-      width: 496px;
+      width: 470px;
       height: 429px;
-      margin: 12.5px;
+      margin: 10px;
       background-color: #f6f6f6;
       .question {
         position: absolute;
         top: 43px;
-        right: 40px;
-        left: 40px;
+        right: 35px;
+        left: 35px;
         display: flex;
         .q {
           display: flex;
@@ -429,8 +429,8 @@ html {
         display: flex;
         position: absolute;
         top: 148px;
-        right: 40px;
-        left: 40px;
+        right: 35px;
+        left: 35px;
         .a {
           display: flex;
           justify-content: center;
