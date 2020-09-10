@@ -1,22 +1,24 @@
 const buttons = document.querySelectorAll(`button`),
-  about = document.querySelector(`.index__second`),
-  service = document.querySelector(`.index__third`),
-  apply = document.querySelector(`.index__fifth`);
+  service = document.querySelector(`.service`),
+  review = document.querySelector(`.review`),
+  howToUse = document.querySelector(`.howToUse`),
+  subscribe = document.querySelector(`.subscribe`),
+  qna = document.querySelector(`.qna`);
 
 function moveView(event) {
   event.preventDefault();
   const ct = event.target;
   const number = ct.id;
   if (number == 1) {
-    about.scrollIntoView(true);
-  } else if (number == 2) {
     service.scrollIntoView(true);
+  } else if (number == 2) {
+    review.scrollIntoView(true);
   } else if (number == 3) {
-    apply.scrollIntoView(true);
+    howToUse.scrollIntoView(true);
   } else if (number == 4) {
-    apply.scrollIntoView(true);
+    subscribe.scrollIntoView(true);
   } else if (number == 5) {
-    apply.scrollIntoView(true);
+    qna.scrollIntoView(true);
   }
 }
 
