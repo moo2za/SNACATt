@@ -1,4 +1,4 @@
-$minsize: 600px;
+$minsize: 1px;
 $size1: 768px;
 $size2: 19200px;
 
@@ -8,7 +8,7 @@ $size2: 19200px;
       @content;
     }
   } @else if $width == "PC" {
-    @media screen and (min-width: $size1) and (max-width: $size2) {
+    @media screen and (min-width: $size1 + 1) and (max-width: $size2) {
       @content;
     }
   }

@@ -1,5 +1,7 @@
-@include responsive("mobile") {
-  .feature {
+@import "../config/mixins.scss";
+
+.feature {
+  @include responsive("mobile") {
     padding: 100px 370px 100px 370px;
     display: flex;
     flex-direction: column;
@@ -7,7 +9,7 @@
     .title {
       width: 420px;
       text-align: center;
-      font-size: 30px;
+      font-size: 40px;
     }
     .feature__container {
       display: grid;
@@ -58,8 +60,8 @@
   }
 }
 
-@include responsive("PC") {
-  .feature {
+.feature {
+  @include responsive("PC") {
     height: 649px;
     padding: 95px 370px 0px 370px;
     display: flex;
@@ -76,7 +78,7 @@
       padding: 20px 20px 0px 20px;
       .feature__content {
         height: 304px;
-        width: 210px;
+        width: 230px;
         margin-right: 37px;
         display: flex;
         flex-direction: column;
