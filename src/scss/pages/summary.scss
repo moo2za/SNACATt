@@ -1,0 +1,42 @@
+.summary {
+  position: relative;
+  height: 545px;
+  background-image: url(../../dist/images/summary.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding: 146px 160px 0px 160px;
+
+  line-height: 45px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  .summary__discription {
+    font-size: 20px;
+    font-weight: 500;
+    color: #010100;
+    margin-bottom: 60px;
+  }
+  #subscribeButton {
+    height: 62px;
+    width: 222px;
+    border-radius: 5px;
+    border: solid 1px $bc;
+    background-color: $bc;
+    font-size: 19px;
+    color: #ffffff;
+    font-weight: bold;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  @keyframes delay {
+    0% {
+      opacity: 0;
+    }
+    100% {
+      opacity: 1;
+    }
+  }
+  animation: delay 1s ease-out forwards;
+}

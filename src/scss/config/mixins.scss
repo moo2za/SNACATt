@@ -1,0 +1,15 @@
+$minsize: 600px;
+$size1: 768px;
+$size2: 19200px;
+
+@mixin responsive($width) {
+  @if $width == "mobile" {
+    @media screen and (min-width: $minsize) and (max-width: $size1) {
+      @content;
+    }
+  } @else if $width == "PC" {
+    @media screen and (min-width: $size1) and (max-width: $size2) {
+      @content;
+    }
+  }
+}

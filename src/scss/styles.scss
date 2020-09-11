@@ -1,10 +1,19 @@
 @import "./config/reset.scss";
 @import "./config/variables";
 @import "./main.scss";
-@import "./elements";
+@import "./elements.scss";
+@import "./config/mixins.scss";
 
 @import "./partials/header.scss";
 @import "./partials/footer.scss";
 @import "./partials/kakaoButton.scss";
+
+@import "./pages/summary.scss";
+@import "./pages/feature.scss";
+@import "./pages/service.scss";
+@import "./pages/review.scss";
+@import "./pages/howToUse.scss";
+@import "./pages/subscribe.scss";
+@import "./pages/qna.scss";
 
 @import url("https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@500;700;900&display=swap");

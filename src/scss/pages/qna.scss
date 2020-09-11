@@ -1,0 +1,90 @@
+.qna {
+  padding: 120px 200px 160px 200px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  .title {
+    width: 900px;
+    text-align: start;
+  }
+  .qna__container {
+    margin-top: 12px;
+    width: 1000px;
+    .first__floor {
+      width: 100%;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+    .second__floor {
+      width: 100%;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+    .qna__box {
+      position: relative;
+      width: 470px;
+      height: 429px;
+      margin: 10px;
+      background-color: #f6f6f6;
+      .question {
+        position: absolute;
+        top: 43px;
+        right: 35px;
+        left: 35px;
+        display: flex;
+        .q {
+          display: flex;
+          justify-content: center;
+          align-items: center;
+          border-radius: 17px;
+          box-shadow: 0 3px 6px 0 rgba(0, 0, 0, 0.16);
+          background-color: $bc;
+          font-size: 24px;
+          font-weight: 900;
+          color: #ffffff;
+          line-height: 1.5;
+          margin-right: 26px;
+          width: 58px;
+          height: 39px;
+        }
+        .q__comment {
+          width: 324px;
+          font-size: 24px;
+          font-weight: 900;
+          color: #2e2e2e;
+          line-height: 1.5;
+        }
+      }
+      .answer {
+        display: flex;
+        position: absolute;
+        top: 148px;
+        right: 35px;
+        left: 35px;
+        .a {
+          display: flex;
+          justify-content: center;
+          align-items: center;
+          width: 58px;
+          height: 39px;
+          border-radius: 17px;
+          box-shadow: 0 3px 6px 0 rgba(0, 0, 0, 0.16);
+          background-color: #ffffff;
+          margin-right: 26px;
+          font-size: 24px;
+          font-weight: 900;
+          line-height: 1.5;
+          color: $bc;
+        }
+        .a__container {
+          width: 324px;
+          font-size: 18px;
+          color: #2e2e2e;
+          line-height: 1.83;
+        }
+      }
+    }
+  }
+}
