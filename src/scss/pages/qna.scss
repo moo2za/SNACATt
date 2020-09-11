@@ -1,5 +1,5 @@
 .qna {
-  padding: 120px 200px 160px 200px;
+  padding: 100px 200px 160px 200px;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -25,12 +25,12 @@
     .qna__box {
       position: relative;
       width: 470px;
-      height: 429px;
+      height: 360px;
       margin: 10px;
       background-color: #f6f6f6;
       .question {
         position: absolute;
-        top: 43px;
+        top: 35px;
         right: 35px;
         left: 35px;
         display: flex;
@@ -60,7 +60,7 @@
       .answer {
         display: flex;
         position: absolute;
-        top: 148px;
+        top: 120px;
         right: 35px;
         left: 35px;
         .a {
