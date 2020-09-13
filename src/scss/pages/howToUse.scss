@@ -4,9 +4,10 @@
   flex-direction: column;
   align-items: center;
   .title {
-    width: 104px;
+    width: 130px;
     margin-bottom: 58px;
     line-height: 1.46;
+    text-align: center;
   }
   .use__container {
     display: flex;
@@ -17,7 +18,7 @@
       margin: 0px 15px;
     }
     .use__content {
-      width: 215px;
+      width: 220px;
       height: 324px;
       display: flex;
       flex-direction: column;

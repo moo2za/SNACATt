@@ -5,9 +5,10 @@
   flex-direction: column;
   align-items: center;
   .title {
-    width: 500px;
+    width: 700px;
     margin: 30px 0px;
     color: #2e2e2e;
+    text-align: center;
   }
   .service__container {
     background-color: #d5f1ff;
@@ -54,7 +55,7 @@
     text-align: end;
   }
   .content__box {
-    width: 666px;
+    width: 680px;
     margin: 29px 100px 120px 100px;
     text-align: center;
     .service__content {
