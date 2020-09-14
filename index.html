@@ -204,7 +204,10 @@
       <div class="title">시제품 체험단 분들도 만족하셨어요!</div>
       <div class="tag">#snacat #sna_cat #집사 #냥스타그램 #맛있어요 #신선</div>
       <div class="review__container">
-        <i class="fas fa-chevron-left"></i>
+        <i
+          class="fas fa-chevron-left"
+          onclick="gtag('event', '버튼클릭', {'event_category' : `리뷰페이지`, 'event_label' : `왼쪽`});"
+        ></i>
         <div class="review__box-father">
           <div class="review__box unshowing" id="review1">
             <a
@@ -369,7 +372,10 @@
             </a>
           </div>
         </div>
-        <i class="fas fa-chevron-right"></i>
+        <i
+          class="fas fa-chevron-right"
+          onclick="gtag('event', '버튼클릭', {'event_category' : `리뷰페이지`, 'event_label' : `오른쪽`});"
+        ></i>
       </div>
     </div>
     <!----------------------단락 구분--------------------->
@@ -586,20 +592,12 @@
         </div>
         <div class="sub__last">
           <div class="sub__box">
-            <a
-              href="termsOfUse.html"
-              class="nav__list-link"
-              onclick="gtag('event', '버튼클릭', {'event_category' :  `기타`, 'event_label' : `사용자 이용약관`});"
-            >
+            <a href="termsOfUse.html" class="nav__list-link">
               <div class="sub__ment1">사용자 이용약관</div>
             </a>
           </div>
           <div class="sub__box">
-            <a
-              href="privacyStatement.html"
-              class="nav__list-link"
-              onclick="gtag('event', '버튼클릭', {'event_category' :  `기타`, 'event_label' : `개인정보 취급방침`});"
-            >
+            <a href="privacyStatement.html" class="nav__list-link">
               <div class="sub__ment2">개인정보 취급방침</div>
             </a>
           </div>
@@ -607,10 +605,7 @@
       </div>
     </div>
 
-    <a
-      href="#"
-      onclick="gtag('event', '버튼클릭', {'event_category' :  `네비게이션`, 'event_label' : `top`});"
-    >
+    <a href="#">
       <div class="scroll">
         <i class="fas fa-chevron-up"></i>
         <div class="topNav">top</div>
